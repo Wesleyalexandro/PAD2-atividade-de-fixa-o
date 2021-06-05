@@ -8,31 +8,31 @@ function question 1(text) {
  // 2 – Crie uma função que dado dois valores e uma Callback(passados como parâmetros),
 mostre no console a soma, subtração, multiplicação e divisão desses valores, dependendo da função Callback.
 
-function question 2 soma(x, y) {
+function question 2 soma(w, n) {
 
-    return x + y;
-
-}
-
-function subtracao(x, y) {
-
-    return x - y;
+    return w + n;
 
 }
 
-function multiplicacao(x, y) {
+function subtracao(w, n) {
 
-    return x * y;
-
-}
-
-function divisao(x, y) {
-
-    return x / y;
+    return w - n;
 
 }
 
-function calculadora(x, y, callback) {
+function multiplicacao(w, n) {
+
+    return w * n;
+
+}
+
+function divisao(w, n) {
+
+    return w / n;
+
+}
+
+function calculadora(w, n, callback) {
 
     console.log(callback(x, y));
 
