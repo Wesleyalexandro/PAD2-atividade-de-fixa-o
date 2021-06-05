@@ -34,7 +34,7 @@ function divisao(w, n) {
 
 function calculadora(w, n, callback) {
 
-    console.log(callback(x, y));
+    console.log(callback(w, n));
 
 }
 
