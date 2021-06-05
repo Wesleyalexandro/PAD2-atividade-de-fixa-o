@@ -1,0 +1,281 @@
+// 1— crie uma função que retorna a string “Olá,” concatenada com um argumento
+tex( a ser passado para função) e com ponto de exclamação “!” o final.
+
+function question 1(text) {
+ return 'Ola' + text + '!'
+ }
+ 
+ // 2 – Crie uma função que dado dois valores e uma Callback(passados como parâmetros),
+mostre no console a soma, subtração, multiplicação e divisão desses valores, dependendo da função Callback.
+
+function question 2 soma(x, y) {
+
+    return x + y;
+
+}
+
+function subtracao(x, y) {
+
+    return x - y;
+
+}
+
+function multiplicacao(x, y) {
+
+    return x * y;
+
+}
+
+function divisao(x, y) {
+
+    return x / y;
+
+}
+
+function calculadora(x, y, callback) {
+
+    console.log(callback(x, y));
+
+}
+
+// 3 – Crie uma função que verifica se um número inteiro passado como parâmetro
+é divisível por um numero passado por uma Callback e retorne true ou false.
+
+function question 3 lk(x, callback) {
+
+    return callback(x, y);
+
+}
+
+var enche = lk(15, function(x, y) {
+
+    if(x % y == 0){
+
+        return true;
+
+    } else {
+
+        return false;
+
+    }
+
+});
+
+enche(15, 3);
+
+// 4 – Crie uma função que recebe um número (de 1 a 12) e retorne o mês correspondente como uma string. 
+Por exemplo, se a entrada for 2, a função deverá retornar “fevereiro”, pois este é o 2° mês.
+
+function question 4 numMes(num)
+
+{
+var num = prompt("Digite um número" , "Número...")
+
+  if(num == 1){
+
+    alert("Janeiro")
+
+  }
+
+var num = prompt("Digite um número" , "Número...")
+
+  if(num == 1){
+
+    alert("Janeiro")
+
+  }
+
+if(num == 2){
+
+    alert("Fevereiro")
+
+  }
+
+  if(num == 3){
+
+    alert("Março")
+
+  }
+
+  if(num == 4){
+
+    alert("Abril")
+
+  }
+
+  if(num == 5){
+
+    alert("Maio")
+
+  }
+
+  if(num == 6){
+
+    alert("Junho")
+
+  }
+
+  if(num == 7){
+
+    alert("Julho")
+
+  }
+
+  if(num == 8){
+
+    alert("Agosto")
+
+  }
+
+  if(num == 9){
+
+    alert("Setembro")
+
+  }
+
+  if(num == 10){
+
+    alert("Outubro")
+
+  }
+
+  if(num == 11){
+
+    alert("Novembro")
+
+  }
+
+  if(num == 12){
+
+    alert("Dezembro")
+
+  }
+
+}
+
+numMes()
+
+*/
+
+// 5 – Crie uma função que receba dois números e retorne se o primeiro é maior ou igual ao segundo dependendo da função Callback.
+
+function question 5 maior(x, y) {
+
+    if (x > y) {
+
+        return 'O primeiro número, maior que o segundo!';
+
+    } else {
+
+        return 'O segundo número, maior que o primeiro!';
+
+    }
+
+}
+function igual(x, y) {
+
+    if (x == y) {
+
+        return ' Primeiro número é igual ao segundo';
+
+    } else {
+
+        return 'Primeiro número não é igual ao segundo';
+
+    }
+
+}
+
+function compare(x, y, callback) {
+
+    return callback(x, y);
+
+}
+
+
+
+
+  
+
+
+    
+   
+    
+
+
+
+  
+
+
+  
+
+
+   
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
