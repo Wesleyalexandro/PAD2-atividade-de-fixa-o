@@ -161,7 +161,7 @@ numMes()
 
 function question 5 maior(x, y) {
 
-    if (x > y) {
+    if (y > z) {
 
         return 'O primeiro número, maior que o segundo!';
 
@@ -172,9 +172,9 @@ function question 5 maior(x, y) {
     }
 
 }
-function igual(x, y) {
+function igual(y, z) {
 
-    if (x == y) {
+    if (y == z) {
 
         return ' Primeiro número é igual ao segundo';
 
@@ -186,9 +186,9 @@ function igual(x, y) {
 
 }
 
-function compare(x, y, callback) {
+function compare(y, z, callback) {
 
-    return callback(x, y);
+    return callback(y, z);
 
 }
 
