@@ -68,94 +68,51 @@ Por exemplo, se a entrada for 2, a função deverá retornar “fevereiro”, po
 
 function question 4 numMes(num)
 
-{
-var num = prompt("Digite um número" , "Número...")
-
-  if(num == 1){
-
-    alert("Janeiro")
-
+//questao 4
+function numMeses(num) {
+  if (num == 1) {
+    console.log("janeiro")
   }
-
-var num = prompt("Digite um número" , "Número...")
-
-  if(num == 1){
-
-    alert("Janeiro")
-
+  if (num == 2) {
+    console.log("Fevereiro")
   }
-
-if(num == 2){
-
-    alert("Fevereiro")
-
+  if (num == 3) {
+    console.log("Março")
   }
-
-  if(num == 3){
-
-    alert("Março")
-
+  if (num == 4) {
+    console.log("Abril")
   }
-
-  if(num == 4){
-
-    alert("Abril")
-
+  if (num == 5) {
+    console.log("Maio")
   }
-
-  if(num == 5){
-
-    alert("Maio")
-
+  if (num == 6) {
+    console.log("Junho")
   }
-
-  if(num == 6){
-
-    alert("Junho")
-
+  if (num == 7) {
+    console.log("Julho")
   }
-
-  if(num == 7){
-
-    alert("Julho")
-
+  if (num == 8) {
+    console.log("Agosto")
   }
-
-  if(num == 8){
-
-    alert("Agosto")
-
+  if (num == 9) {
+    console.log("Setembro")
   }
-
-  if(num == 9){
-
-    alert("Setembro")
-
+  if (num == 10) {
+    console.log("Outubro")
   }
-
-  if(num == 10){
-
-    alert("Outubro")
-
+  if (num == 11) {
+    console.log("Novembro")
   }
-
-  if(num == 11){
-
-    alert("Novembro")
-
+  if (num == 12) {
+    console.log("Dezembro")
   }
-
-  if(num == 12){
-
-    alert("Dezembro")
-
-  }
-
 }
+numMeses(11)
 
-numMes()
+  
 
-*/
+  
+  
 
 // 5 – Crie uma função que receba dois números e retorne se o primeiro é maior ou igual ao segundo dependendo da função Callback.
 
